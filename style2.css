@@ -1,6 +1,12 @@
 .column{
   float: left;
 }
+.left{
+  width: 60%;
+}
+.right{
+  width: 40%;
+}
 .logo{
   padding-left: 122px;
   padding-top: 199px;
