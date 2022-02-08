@@ -1,0 +1,65 @@
+.column{
+  float: left;
+}
+.logo{
+  padding-left: 122px;
+  padding-top: 199px;
+}
+.login{
+  padding-top: 45px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 48.05px;
+}
+.welcome{
+  padding-top: 13px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 31.64px;
+  color: #47C2C7;
+}
+.email{
+  padding-top: 78px;
+  color: #5F5F5F;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+hr{
+  width: 400px;
+  height: 1px;
+  border-width: 0;
+  background-color: #00C0F3;
+}
+.password{
+  padding-top: 29px;
+  color: #5F5F5F;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.checkmark{
+  border-color: #00C0F3;
+  height: 15px;
+  width: 15px;
+}
+.align span{
+  float: right;
+}
+.login-1{
+  width: 120px;
+  height: 40px;
+  padding-top: 10px;
+  background-color: #00C0F3;
+  color: white;
+  text-align: center;
+  margin-top: 81px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  box-sizing: border-box;
+}
