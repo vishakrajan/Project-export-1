@@ -34,6 +34,13 @@
   font-size: 18px;
   line-height: 21.09px;
 }
+.email_input{
+  color: #5F5F5F;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
 hr{
   width: 400px;
   height: 1px;
@@ -42,6 +49,13 @@ hr{
 }
 .password{
   padding-top: 29px;
+  color: #5F5F5F;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.password_input{
   color: #5F5F5F;
   font-family: Roboto;
   font-weight: 400;
@@ -69,3 +83,17 @@ hr{
   font-size: 18px;
   box-sizing: border-box;
 }
+.button{
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #00C0F3;
+  color: white;
+  text-align: center;
+  margin-top: 81px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+

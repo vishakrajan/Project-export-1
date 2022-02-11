@@ -4,6 +4,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+  <script src="login.js"></script>
 <!-- to zoom out the page 58% -->  
   <script type="text/javascript">
     function zoom() {
@@ -29,12 +30,13 @@
         <div class="welcome">
           Welcome to Oceanus
         </div>
+        <form onsubmit="return login()">
         <div class="email">
-          Email
+          <input class="email.input" type="email" id="email" placeholder="Email" style="border: none;">
         </div>
         <hr>
         <div class="password">
-          Password
+          <input class="password.input" type="password" id="password" placeholder="Password" style="border: none;">
         </div>
         <hr>
       </br>
@@ -44,9 +46,14 @@
         </label>
         <span style="text-align: right;font-family: Roboto;font-weight: 400;font-size: 11px;color: #5F5F5F;padding-top: -40px;">Forgot Password </span>
       </div>
-      <div class="login-1">
-        Login
+      
+      <div >
+        <button class="button" type="submit">Login</button>
       </div>
+    </br>
+    </br>
+        <p><span id='credentials'></span></p>
+    </form>
     </div>
     </div>
   </div>
